@@ -22,6 +22,10 @@ const sans = Manrope({
 export const metadata: Metadata = {
   title: "NeyVora — Beauty, rooted in nature",
   description: "NeyVora is a premium beauty house of thoughtful rituals for skin and hair. Luxury personal care, rooted in nature.",
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    apple: [{ url: "/apple-touch-icon.png", type: "image/png" }],
+  },
 };
 
 export const viewport = {
